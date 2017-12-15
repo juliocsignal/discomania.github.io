@@ -1,0 +1,117 @@
+﻿<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="contato.css">
+    <link rel="stylesheet" href="Style.css">
+
+    <title>Disco Mania</title>
+    <link rel="icon"type="image/png" href="media/icon.png"> <!-- Ícone do site que aparece ao lado do título na aba-->
+
+  </head>
+
+  <script> //Inicio de codigo em Javascript
+    function funcao() //Criacao de uma nova funcao
+    {
+      alert("Mensagem enviada com sucesso! :D") //Exibe uma mensagem de alerta no navegador
+    }
+  </script>
+  <body>
+
+    <div id="logo"> <!--Divisao da logo-->
+				<a href="index.html"><img id="foto" src="media/foto.jpg" width="300px" height="143px" /></a> <!--Foto com link para a home-->
+				</div>
+
+        <div id="menu"> <!--Divisao do menu-->
+				  <ul id="nav"> <!--Lista do menu-->
+					<li><a href="index.html">Home</a></li><!--Itens com links de diferentes paginas-->
+					<li><a href="quem-somos.html">Quem Somos?</a></li>
+					<li><a href="albuns.html">Álbuns do Ano</a></li>
+          <li><a href="musicas.html">Músicas do Ano</a></li>
+          <li><a href="notícias.html">Notícias</a></li>
+					<li><a href="colunas.html">Colunas</a></li>
+					<li><a href="contato.html">Contato</a></li>
+				  </ul>
+			</div>
+
+	<div id="container" class="container"> <!--Criacao da Divisao 'container'-->
+
+    <article id="contato">
+      <form class="formulario" action="#" method="post"> <!--Criacao do formulario-->
+          <ul class="form">
+            <li>
+              <input type="name" name="text" placeholder="Nome..."> <!--Campo de Nome-->
+              <input type="name" name="text" placeholder="Sobrenome..."> <!--Campo de Sobrenome-->
+            </li>
+
+            <li>
+              <input type="email" name="text" placeholder="Email..."> <!--Campo de email-->
+              <input type="email" name="text" placeholder="Confirme seu email..."> <!--Campo de email-->
+            </li>
+
+            <li>
+              <input type="name" name="text" placeholder="Endereço..."> <!--Campo de Endereco-->
+              <input type="number" name="text" placeholder="CEP..."> <!--Campo de CEP-->
+            </li>
+
+            <li>
+              <input type="name" name="text" placeholder="Bairro..."> <!--Campo de Bairro-->
+              <input type="name" name="text" placeholder="Cidade..."> <!--Campo de Cidade-->
+            </li>
+
+            <li>
+              <select> <!--Drop Down List com opcoes de estado-->
+                <option value=AC>AC</option> <!--Opcoes de escolha-->
+                <option value=AL>AL</option>
+                <option value=AP>AP</option>
+                <option value=AM>AM</option>
+                <option value=BA>BA</option>
+                <option value=CE>CE</option>
+                <option value=DF>DF</option>
+                <option value=ES>ES</option>
+                <option value=GO>GO</option>
+                <option value=MA>MA</option>
+                <option value=MT>MT</option>
+                <option value=MS>MS</option>
+                <option value=MG>MG</option>
+                <option value=PA>PA</option>
+                <option value=PB>PB</option>
+                <option value=PR>PR</option>
+                <option value=PE>PE</option>
+                <option value=PI>PI</option>
+                <option value=RJ>RJ</option>
+                <option value=RN>RN</option>
+                <option value=RS>RS</option>
+                <option value=RO>RO</option>
+                <option value=RR>RR</option>
+                <option value=SC>SC</option>
+                <option value=SP>SP</option>
+                <option value=SE>SE</option>
+                <option value=TO>TO</option>
+              </select>
+            </li>
+
+            <li>
+              <textarea placeholder="Deixe sua mensagem..."></textarea> <!--Espaco onde o usuario digita sua mensagem-->
+            </li>
+
+            <li><input type="checkbox" class="a" name="remember" value=""> <a id="not">Receber atualizações por email!</a> <!--Opcao para receber notificações via email--></li>
+          <br>
+          <li><input type="submit" name="submit" value="Enviar" id="botao" onclick="funcao()"> <!--Botao de entrar--></li>
+
+          </ul>
+        <br>
+      </form>
+    </article>
+
+
+
+
+    </div>
+
+    <footer> <!--Rodape do site-->
+		    <p id="redes">Disco Mania &#0153; <br><hr></p><p> Todos os direitos reservados  &#0169; 2017.</p> <!--Texto do rodape-->
+    </footer>
+
+  </body>
+</html>

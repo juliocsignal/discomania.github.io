@@ -1,0 +1,111 @@
+.container
+{
+		text-align: center; /*Alinha o texto da div de classe 'container'*/
+		display: block; /*Configura a div como um bloco*/
+		margin: 0 auto; /*Margens automaticas de orientacao horizontal (centralizacao) */
+
+}
+
+
+ul li { /*Configuracoes das listas */
+	position: relative; /*Configura a posicao da lista como relativa*/
+	display: inline-block; /*Configura o display como um bloco horizontal*/
+}
+
+input{ /*Inputs do formulario*/
+	display: inline-block; /*Display configurado como bloco*/
+	padding: 15px; /*Padding de todos*/
+	padding-left: 50px; /*Padding da esquerda*/
+	padding-right: 50px; /*Padding da direita*/
+	margin-bottom: 20px; /*Margem de todos*/
+	border-radius: 800px; /*Raio da borda*/
+	border:0; /*Zera configuracoes predefinidas*/
+	width: 25em; /*Determina a largura de cada input*/
+	margin: 1%; /*Define todas as margens em 1%*/
+	box-shadow: -0.6px -0.6px 1.2px #000;
+	/*2e6c9f*/
+
+}
+
+input::placeholder, input::-webkit-input-placeholder { /*Mudamos as cores dos placeholders*/
+		/*Configuracoes para diferentes navegadores*/
+		color: rgba(95,158,160,1);
+}
+
+input[type=checkbox]{ /*Configura o input de caixa de marcacao*/
+		display: inline-block; /*Configurando a checkbox como 'inline-block'*/
+		margin: 0; /*Zera configuracoes predefinidas*/
+		margin-top: 1%; /*Define a margem do topo em 1%*/
+		width: 2em; /*Define a largura em 2em (medida responsiva)*/
+		box-shadow: -0.6px -0.6px 1.2px #fff;	
+}
+
+a#not
+{
+		/*Define a cor do texto como branca*/
+		color: rgba(95,158,160,1);
+}
+
+input[type=submit]{ /*Entrada do tipo Botao*/
+		background-color: rgb(65,230,170); /*Cor do botao*/
+    color:white; /*Cor da letra*/
+    text-align: center; /*Alinhando texto do botao*/
+    margin-top:10px; /*Configurando margem de topo*/
+    text-shadow:0.6px 0.6px 0.7px #2E8B57	; /*Configurando sombra do botao*/
+    font-size:19px; /*Tamanho da fonte*/
+		width: 8em; /*Largura do Botao*/
+		margin-bottom: 0; /*Zera configuracoes predefinidas*/
+			box-shadow: 0.6px 0.6px 0.7px #000;
+
+
+}
+
+select
+{
+	padding: 15px; /*Padding de todos*/
+	padding-left: 50px; /*Padding da esquerda*/
+	padding-right: 50px; /*Padding da direita*/
+	border-radius: 800px; /*Raio da borda*/
+		box-shadow: -0.6px -0.6px 1.2px #000;	
+
+}
+
+
+
+textarea /*Caixa de texto onde o usuário escreve sua mensagem*/
+{
+		margin: 1%; /*Configurando a margem da caixa de texto*/
+		padding:2%; /*Configurando o padding da caixa de texto*/
+		height: 10em; /*Configurando a altura da caixa de texto*/
+		width: 35%; /*Configurando a largura da caixa de texto*/
+		border-radius: 2%; /*Raio da borda*/
+		background-color: white;
+		box-shadow: -0.6px -0.6px 1.2px #000;
+
+}
+
+.form {
+		list-style:none; /*Zera configuracoes predefinidas*/
+		padding:0; /*Zera configuracoes predefinidas*/
+		margin:0; /*Zera configuracoes predefinidas*/
+}
+
+.form li
+{
+		/*margin-left: 0.5%;
+		margin-right: 0.5%;*/
+		display: block;
+
+}
+
+article#contato
+{
+		background-color: white;
+		border-radius: 5px; /*Raio da borda do artigo*/
+		padding: 1.5%; /*Espacamento interno do artigo*/
+		margin: 0 auto;
+		display: block;
+		position: relative;
+
+
+}

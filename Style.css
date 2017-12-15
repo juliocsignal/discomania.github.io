@@ -1,0 +1,246 @@
+html, body { /*configuracoes basicas do corpo da pagina*/
+	margin:0;
+	padding:0;
+	width:100%;
+	background-color: rgba(85,148,150,1);
+}
+
+h1 { /*Configuracoes de titulo h1*/
+	font-size: 30px; /*Fonte*/
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; /*Tipo de fonte*/
+	text-align: center; /*Alinhamento*/
+
+}
+
+ul { /*Configuracoes padrao para todas as listas a serem utilizadas*/
+	/*margin: 0; Zera as margens da lista*/
+	padding: 0;
+	list-style: none; /*Zera qualquer predefinicao de estilo da lista*/
+}
+
+div#logo
+{ /*Divisao que corresponde a logo posicionada no topo da pagina*/
+
+	margin-top: 2%; /*Margem do topo da divisao*/
+	display: block; /*Configurando o display como bloco*/
+	position: relative; /*Configurando a posicao como relativa*/
+	display: table;
+	margin: 0 auto;
+	margin-top: 2%;
+}
+
+
+div#menu
+{
+	margin: 0 auto; /*Margens automaticas de orientacao esquerda-direita*/
+	margin-top: 0.6%; /*Configurando margem do topo*/
+	position: relative; /*Configurando a posicao como relativa*/
+	display: block; /*Configurando o display como bloco*/
+
+}
+
+ul#nav
+{
+	position: relative; /*Configurando a posicao como relativa*/
+	display: table; /*Configurando o display do menu como tabela para facilitar a orientacao*/
+	margin: 0 auto; /*Margens automaticas de orientacao esquerda-direita*/
+	margin-bottom: 1%; /*Margem do fundo*/
+}
+
+img#foto{
+	position:absolute; /*Tornando a posicao da imagem como absoluta*/
+	margin-top: 10px; /*Configurando a margem do topo*/
+	position: relative; /*Configurando a posicao como relativa*/
+	display: block; /*Configurando o display como bloco*/
+	/*margin: 0 auto; Margens automaticas de orientacao esquerda-direita*/
+	width: 100%;
+	margin: auto;
+
+	border-radius: 15px;
+	/*margin-left: 7%;*/
+
+}
+
+
+ul#nav li
+{
+	margin-left: 0;
+	position: relative; /*Torna a posicao dos itens da lista 'nav', que
+											corresponde ao menu, relativos*/
+	display: inline-block; /*Define a visualizacao do menu como blocos horizontais*/
+	padding: 1.5em;
+	padding-left: ;
+	padding-right: ;
+	font-size: 15px;
+	text-align: center;
+	background: #fff;
+	border-left: 1px solid #ccc;
+	/*	border-bottom: 1px solid #ccc;
+*/
+	}
+
+ul li a
+{
+	text-decoration: none; /*Zera configuracoes predefinidas*/
+	color: #2c8d99; /*Cor do texto*/
+
+}
+
+ul#nav li:hover
+{
+	background-color: #cdd;
+
+}
+
+
+h1 {
+   margin:0; /*Zerando margem e padding pre-definidos*/
+   padding:0;
+   margin-bottom: 40px; /*Margem do fundo do h1*/
+   font-size:35px; /*Tamanho da fonte*/
+/*margin-left:3%;*/
+}
+
+
+
+div#corpotexto
+{
+	display: block
+	position: relative;
+
+
+}
+
+article
+{
+	background-color: white;
+	width: 70em;
+	border-radius: 5px; /*Raio da borda do artigo*/
+	padding: 1.5%; /*Espacamento interno do artigo*/
+	margin: 0 auto;
+	display: block;
+	position: relative;
+}
+
+article#corpo h1
+{
+		font-size: 20pt;
+		position: relative;
+		text-align: left;
+		width: 100%;
+		margin: auto;
+}
+
+div#titulo
+{
+	margin:0 auto;
+	background-color: rgba(44,141,153,0.6);
+	color: #fff;
+	text-shadow: 0.6px 0.6px 0.7px #000;
+	padding: 0.9%;
+	padding-left: 1.3%;
+	padding-right: 1.3%;
+	display: table;
+	border-radius: 5px;
+	box-shadow: 0.6px 0.6px 0.7px #000;
+
+
+}
+
+article#corpo p
+{
+	background-color: #fff;
+	text-align: justify;
+	text-indent: 1.7em;
+}
+
+footer
+{
+	background-color: #fff;
+	height: 10%;
+	width: 30em;
+	position: relative;
+	display: block;
+	margin: 0 auto;
+	margin-bottom: 1%;
+	border-radius: 20px;
+	padding: 1.5%;
+	margin-top: 0.6%;
+	margin-bottom: 5%;
+}
+
+img#img-teste
+{
+	border-radius: 8%;
+	border-width: medium;
+    border-style: solid;
+    border-color: #2c8d99;
+
+}
+
+div.news
+{
+		display: inline-block;
+		position: relative;
+		/*width: 10%;*/
+		margin: 0 auto;
+		max-width: 170px;
+		padding: 2%;
+		margin: 2%;
+		border-radius: 10%;
+		text-align: center;
+		background-color: white;
+		box-shadow: 0.6px 0.6px 0.7px #000;
+		box-shadow: -0.6px -0.6px -0.7px #000;
+}
+
+div#linha
+{
+		text-align: center;
+		display: block;
+		margin: 0 auto;
+}
+
+div#news1
+{
+}
+
+div#news2
+{
+}
+
+div#news3
+{
+}
+
+
+
+footer p
+{
+	margin: 0;
+	font-size: 1.0em;
+
+	text-align: center;
+}
+
+
+a#legenda
+{
+		display: block;
+		margin: 2%;
+		margin-top: 5%;
+		text-decoration: none;
+		color: #000;
+}
+
+a#legenda:hover
+{
+/*	font-size: 1.1em;
+*/
+}
+
+hr
+{
+	height: 1%;
+	color: #2c8d99;
+}
