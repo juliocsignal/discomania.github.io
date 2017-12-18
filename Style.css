@@ -105,8 +105,10 @@ h1 {
 
 div#corpotexto
 {
-	display: block
+	display: block;
 	position: relative;
+	margin: 0 auto;
+
 
 
 }
@@ -114,10 +116,11 @@ div#corpotexto
 article
 {
 	background-color: white;
-	width: 70em;
 	border-radius: 5px; /*Raio da borda do artigo*/
 	padding: 1.5%; /*Espacamento interno do artigo*/
 	margin: 0 auto;
+	width: 80%;
+
 	display: block;
 	position: relative;
 }
